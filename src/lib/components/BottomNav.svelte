@@ -4,8 +4,9 @@
 	const links = [
 		{ href: '/', icon: 'fa-house', label: 'Inicio' },
 		{ href: '/register', icon: 'fa-plus', label: 'Registrar' },
-		{ href: '/inventory', icon: 'fa-boxes-stacked', label: 'Inventario' },
-		{ href: '/sales', icon: 'fa-cash-register', label: 'Ventas' }
+		{ href: '/inventory', icon: 'fa-boxes-stacked', label: 'Stock' },
+		{ href: '/sales', icon: 'fa-cash-register', label: 'Ventas' },
+		{ href: '/historial', icon: 'fa-clock-rotate-left', label: 'Historial' }
 	];
 
 	function isActive(href, pathname) {

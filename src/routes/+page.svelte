@@ -25,6 +25,14 @@
 			desc: 'Caja registradora con escáner',
 			accent: 'from-emerald-500/20 to-teal-500/10',
 			iconBg: 'bg-emerald-500/20 text-emerald-400'
+		},
+		{
+			href: '/historial',
+			icon: 'fa-clock-rotate-left',
+			title: 'Historial',
+			desc: 'Consulta, edita o elimina ventas',
+			accent: 'from-amber-500/20 to-orange-500/10',
+			iconBg: 'bg-amber-500/20 text-amber-400'
 		}
 	];
 </script>

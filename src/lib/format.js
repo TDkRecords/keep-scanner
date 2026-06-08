@@ -7,3 +7,11 @@ export function formatCurrency(value) {
 		maximumFractionDigits: 0
 	}).format(value);
 }
+
+/** @param {string} iso */
+export function formatDate(iso) {
+	return new Intl.DateTimeFormat('es-CO', {
+		dateStyle: 'medium',
+		timeStyle: 'short'
+	}).format(new Date(iso));
+}
